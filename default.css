@@ -1,0 +1,358 @@
+/******** Body Section *******/
+body
+{
+    width: 800px;
+    height: 600px;
+    background-image: url('caps.png');
+    background-repeat: no-repeat;
+    background-size: 100% 110%;   
+    background-color: #C5C5C5;
+}
+
+body.user
+{
+    width: 800px;
+    height: 600px;
+    background-image: url('background_user_plain.png');
+    background-repeat: no-repeat;
+    background-size: 100% 110%;   
+    background-color: #C5C5C5;
+}
+
+/******** header section ********/
+
+.header_bar
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height: 80px;
+    background-color: #000000;
+}
+.header_topper
+{
+	position:absolutio;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:10px;
+	background-color:#E8D889;
+}
+
+#user
+{
+    height: 75px;
+}
+
+.main_logo
+{
+	position:absolute;
+    top: 15px;
+    left:200px;
+    width: 150px;
+    height: 80px;
+}
+
+h1.user_name
+{
+    float:left;
+    padding-top:10px;
+    margin-top:20px;
+    margin-left: 5px;
+    color: white;
+}
+
+a.user_name
+{
+    float:left;
+    margin-top: 45px;
+    margin-left: 5px;
+    color: white;
+    font-size: small;
+}
+
+.user_logo
+{
+    float:right;
+    margin-right: 10px;
+    margin-top: 5px;
+    height: 60px;
+}
+
+/******* main content *********/
+.content
+{
+    position:absolute;
+    margin-top:80px;
+    margin-left: 15%;
+    width: 800px;
+    height: 350px;
+    background-color: #E8D889;
+    border-radius: 15px;
+    opacity:0.8;
+}
+
+#user_content
+{
+    background-color: #E8E8E9;
+    height: 350px;
+    box-shadow: -5px 0px 4px 0px #385997;
+}
+
+.info
+{
+    position: relative;
+    float: left;
+    top: 20%;
+    margin-left: 15px;
+    width: 325px;
+    height: 200px;
+    font-family: Cantarell, sans-serif;
+    text-align:center;
+}
+
+h2.info_text
+{
+    font-size: 28px;
+    text-align:center;
+}
+
+p.info_text
+{
+    font-size: large;
+    text-align:center;
+}
+
+.log_on
+{
+    position: relative;
+    float:right;
+    top: 10%;
+    margin-right: 15px;
+    width: 375px;
+    height:300px;
+    font-family: Cantarell, sans-serif;
+}
+
+.instruct
+{
+	text-align:center;
+}
+
+h2.instruct
+{
+    font-size: 32px;
+    text-align:center;
+}
+
+ul.instruct
+{
+    list-style-type: none;
+    margin-left: -35px;
+}
+
+h4.instruct
+{
+	font-size:11px;
+	text-align:center;
+}
+
+.facebook_bar
+{
+    margin-top: 25px;
+    margin-left: 20px;
+    padding-top:15px;
+    width: 300px;
+    height: 40px;
+    background-color: #385997;
+    text-align: center;
+}
+
+a.test
+{
+
+    color: white;
+    
+}
+
+.unselected
+{
+    position: relative;
+    width: 275px;
+    height: 40px;
+    background-color: #385997;
+    opacity: 0.8;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    cursor:pointer;
+}
+
+#school_list
+{
+	font-size:22px;
+	padding-left: 15px;
+	margin-top: -3px;
+}
+
+#unselected
+{
+	padding-top: 10px;
+	margin-top: 10px;
+}
+
+#unselected ul
+{
+	list-style: none;
+	margin-left: -5px;
+	margin-top: 10px;
+	padding: 0;
+	border: none;
+}
+
+#unselected li
+{
+	margin-left: -20px;
+	margin-top: 10px;
+	padding-top: 5px;
+}
+
+#unselected li a
+{
+	display: block;
+	margin-left: 0;
+	padding-top: 5px;
+	background-color: #385997;
+	color: #fff;
+	text-decoration: none;
+	width: 100%;
+}
+
+
+#school1
+{
+    top: 50px;
+    left: -10px;
+}
+
+
+.university
+{
+    top: 18px;
+    position: relative;
+}
+
+.display_info
+{
+    position: relative;
+    float: right;
+    width: 58%;
+    margin-right: 15px;
+    margin-top: 20px;
+    top:-15px;
+    padding: 0.5em 1em; 
+	border: solid 2px #eee;
+	border-radius: 10px; 
+	color: #888;
+}
+
+#university1_info
+{
+    visibility: visible;
+    position: relative;
+    float: right;
+    width: 450px;
+    height: 100px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.redirect
+{
+    visibility: hidden;
+    position: relative;
+    float: right;
+    width: 450px;
+    height: 100px;
+    margin-right: 15px;
+    top:-200px;
+}
+
+.university1_text
+{
+    position: relative;
+    top:-100px;
+}
+
+input.pledge_button
+{
+    color: white;
+    background-color: #385997;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.university_pledge1
+{
+    position: relative;
+    top: -30px;
+}
+
+.outgive_bar
+{
+    position: relative;
+    top: -45px;
+    text-align: center;
+    width: 450px;
+    height:50px;
+    background-color: #918337;
+}
+
+#stats
+{
+    position: relative;
+    top: 10px;
+}
+
+table
+{
+    position: relative;
+    width: 450px;
+    top: -35px;
+}
+
+
+
+td.table_info
+{
+    background-color: #385997;
+    height: 50px;
+    border: solid #E8E8E9 5px;
+    width: 30px;
+    color:white;
+}
+
+#display_info
+{
+	position: relative;
+	top: -20%;
+}
+
+#feed
+{
+	position: absolute;
+	height: 250px;
+	top: 5%;
+	right: -220px;
+	float: right;
+}
+
+/******* Footer Bar *******/
+footer
+{
+    margin-top: 10px;
+    margin-left: 40%;
+    text-align: center;
+}
